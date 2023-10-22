@@ -6,6 +6,7 @@ import Login from './templates/Login'
 import Home from './templates/Home'
 import Signup from './templates/SignUp'
 import NotFound from './templates/NotFound'
+import './main.css'
 
 const root = document.getElementById('root')!
 

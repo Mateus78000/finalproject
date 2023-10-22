@@ -74,15 +74,15 @@ const MyForm = styled.form`
         font-size: 90%;
 
         a {
-            color: #ec017e;
+            color: #A639CA;
             text-decoration: none;
         }
     }
 `
 
 const AccentButton = styled.button`
-    border: 3px solid #ec017e;
-    color: #ec017e;
+    border: 3px solid #A639CA;
+    color: #A639CA;
     background-color: transparent;
     font-size: 1.25rem;
     padding: 1rem;
@@ -105,8 +105,7 @@ export default () => <>
     <MyForm>
         <div className="container">
             <div className="title">
-                <h1>Welcome</h1>
-                <h2>bem vindo, bien venido, willkommen</h2>
+                <h1>Bem Vindo!</h1>
             </div>
             <div className="input">
                 <label>Login</label>
@@ -122,7 +121,7 @@ export default () => <>
             </div>
         </div>
         <div className="sign-up">
-        É a sua primeira vez aqui, <Link to="/signup">Cadastre-se!</Link>
+        É a sua primeira vez aqui? <Link to="/signup">Cadastre-se!</Link>
         </div>
     </MyForm>
 </>

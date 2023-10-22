@@ -74,15 +74,15 @@ const MyForm = styled.form`
         font-size: 90%;
 
         a {
-            color: #ec017e;
+            color: #A639CA;
             text-decoration: none;
         }
     }
 `
 
 const AccentButton = styled.button`
-    border: 3px solid #ec017e;
-    color: #ec017e;
+    border: 3px solid #A639CA;
+    color: #A639CA;
     background-color: transparent;
     font-size: 1.25rem;
     padding: 1rem;
@@ -117,7 +117,7 @@ export default () => <>
             </div>
         </div>
         <div className="login">
-            Já tem uma conta?, <Link to="/">Clique aqui!</Link>
+            Já tem uma conta? <Link to="/">Clique aqui!</Link>
         </div>
     </MyForm>
 </>
