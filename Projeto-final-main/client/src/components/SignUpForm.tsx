@@ -117,7 +117,8 @@ export default () => <>
             </div>
         </div>
         <div className="login">
-            Já tem uma conta? <Link to="/">Clique aqui!</Link>
+            Já tem uma conta? <Link to="/login">Clique aqui!</Link>
+            {/* serve pra mudar a rota da url */}
         </div>
     </MyForm>
 </>
